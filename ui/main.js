@@ -1,12 +1,13 @@
-console.log('Loaded!');
 
 
 //Counter Code
 var button = document.getElementById('counter');
 
 button.onclick = function(){
+    
     //Create a request object
     var request = new XMLHttpRequest();
+    
     //Capture the response and store in a variable
     request.onreadystatechange = function(){
         if(request.readyState === XMLHttpRequest.DONE){
@@ -20,7 +21,7 @@ button.onclick = function(){
     };
     
     // Make the request
-    request.open('GET','http://antooaman.imad.hasura-app/counter',true);
+    request.open('GET','http://antooaman.imad.hasura-app.io/counter',true);
     request.send(null);
 };
 
