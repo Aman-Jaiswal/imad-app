@@ -3,7 +3,6 @@ console.log('Loaded!');
 
 //Counter Code
 var button = document.getElementById('counter');
-var counter = 0;
 
 button.onclick = function(){
     //Create a request object
