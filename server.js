@@ -15,55 +15,25 @@ app.use(morgan('combined'));
 
 var articles={
     'article-one':{
-        title: 'Article One | Aman Jaiswal',
-        heading: 'Article One',
-        date: 'February 18, 2018',
+        title: '',
+        heading: '',
+        date: '',
         content:`
-                 <p>
-                    This is my first article by using platform github.This is my first article by using platform github.This is my first article by using platform github.This is my first article by using platform github.This is my first article by using platform github.
-                 </p>
-                
-                 <p>
-                    This is my first article by using platform github.This is my first article by using platform github.This is my first article by using platform github.This is my first article by using platform github.This is my first article by using platform github.
-                 </p>
-                
-                 <p>
-                    This is my first article by using platform github.This is my first article by using platform github.This is my first article by using platform github.This is my first article by using platform github.This is my first article by using platform github.
-                 </p>`
+                `
         },
     'article-two':{
-        title:'Article Two | Aman Jaiswal',
-        heading:'Article Two',
-        date:'February 18,2018',
+        title:'',
+        heading:'',
+        date:'',
         content:`
-                <p>
-                    This is my first article by using platform github.This is my first article by using platform github.This is my first article by using platform github.This is my first article by using platform github.This is my first article by using platform github.
-                </p>
-                
-                 <p>
-                    This is my first article by using platform github.This is my first article by using platform github.This is my first article by using platform github.This is my first article by using platform github.This is my first article by using platform github.
-                </p>
-                
-                 <p>
-                    This is my first article by using platform github.This is my first article by using platform github.This is my first article by using platform github.This is my first article by using platform github.This is my first article by using platform github.
-                </p>`
+                `
         },
     'article-three':{
-        title:'Article Three | Aman Jaiswal',
-        heading:'Article Three',
-        date:'February 18,2018',
+        title:'',
+        heading:'',
+        date:'',
         content:`
-                <p>
-                    This is my first article by using platform github.This is my first article by using platform github.This is my first article by using platform github.This is my first article by using platform github.This is my first article by using platform github.
-                </p>
-                
-                 <p>
-                    This is my first article by using platform github.This is my first article by using platform github.This is my first article by using platform github.This is my first article by using platform github.This is my first article by using platform github.
-                </p>
-                
-                 <p>
-                    This is my first article by using platform github.This is my first article by using platform github.This is my first article by using platform github.This is my first article by using platform github.This is my first article by using platform github.
-                </p>`
+                `
        
         }
 };
