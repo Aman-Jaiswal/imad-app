@@ -172,6 +172,11 @@ app.get('/check-login',function(req,res){
     }
 });
 
+app.get('/logout',function(req,res){
+    delete req.session.auth;
+    res.send("logged-out");
+});
+
 function hash(input,salt){
     //Create Hash
     var hashed = crypto.pbkdf2Sync(input, salt, 10000, 512, 'sha512');
