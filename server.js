@@ -140,7 +140,7 @@ app.post('/login',function(req,res){
             else{
                 //Match the Password
                 var dbstring = result.rows[0].password;
-                var salt = dbString.split('$')[2];
+                var salt = dbstring.split('$')[2];
                 var hashedPassword = hash(password,salt);//Creating a hash based on the password submitted and the original salt
                 if(hashedPassword ===dbstring){
                     res.send("Credentials are correct:");
